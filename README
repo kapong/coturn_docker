@@ -1,4 +1,6 @@
-After `docker compose up`
+Edit and save `turnserver.conf.sample` to `turnserver.conf`
+
+Then run `docker compose up`
 
 to add user
 
