@@ -1,0 +1,12 @@
+After `docker compose up`
+
+to add user
+
+```
+docker compose exec coturn turnadmin -a --db "/var/lib/coturn/turndb" -u kapong -r coturn.cils.cloud -p password
+```
+
+to view user
+```
+docker compose exec coturn turnadmin -l --db "/var/lib/coturn/turndb"
+```
