@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  coturn:
+    image: coturn/coturn
+    restart: always
+    volumes:
+      - ./turnserver.conf:/etc/turnserver.conf:ro
+      - coturndata:/var/lib/coturn/
+    network_mode: "host"
+
+volumes:
+  coturndata:
+

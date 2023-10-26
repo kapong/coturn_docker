@@ -1,0 +1,11 @@
+# CHANGE_ME
+listening-ip=<IP>
+external-ip=<IP>
+realm=<DOMAIN>
+
+verbose
+prometheus
+userdb=/var/lib/coturn/turndb
+lt-cred-mech
+mobility
+no-tls
